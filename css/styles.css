@@ -14,7 +14,11 @@
     line-height: 1.5em;
     letter-spacing: 0.4px;
 }
+UL.list {
+    display: inline-flex;
+    
 
+}
 .dark {
     background-color: var(--navy-blue);
 
