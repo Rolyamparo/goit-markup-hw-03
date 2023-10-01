@@ -4,6 +4,8 @@
     --white: #FFF;
     --slate: #434455;
     --CLOUD: #F4F4FD;
+    --cornflower: #E7E9FC;
+       
     
 }
 .container {
@@ -13,11 +15,47 @@
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.4px;
-    
-    width: 1158px;
+   width: auto;
+   height: auto;
 }
 ul.container {
     display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+.main-header-menu-item-link {
+    color: var(--navy-blue);
+    list-style-type: none;
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+    padding: 10px;
+    border: 16px;
+}
+
+.main-ctas-item-link {
+    color: var(--navy-blue);
+    list-style-type: none;
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    
+
+    display: flex;
+    width: auto;
+    height: auto;
+    
+    flex-shrink: 0;
+    
+
+    
+    
 }
 .list-gadget 
  {
@@ -27,6 +65,8 @@ align-items: flex-start;
 width: 360px;
 height: 300px;
 border: 768px;
+border: 1px solid var(--cornflower);
+background: lightgray 50% / cover no-repeat;
 
 }
 .list-team {
@@ -55,20 +95,20 @@ body {
 
 h1 {
     color: var(--white);
-    text-align: center;
+    
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;       
     letter-spacing: 1.12px;
-   
+    
     width: 496px;
-    flex-shrink: 0;
+    
     
     
     
     }
 
-.botton {
+.button {
     border-radius: 4px;
     background-color: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -79,9 +119,7 @@ h1 {
     line-height: 24px;       
     letter-spacing: 0.64px;
     border: none;
-    
     padding: 16px 32px;
-    gap: 10px;
     
     
 }
@@ -96,7 +134,7 @@ h2 {
         line-height: 2.5em;       
         letter-spacing: 0.72px;
         text-transform: capitalize;
-        font-style: normal;
+        
         display: inline-flex
         
 
@@ -107,7 +145,7 @@ h3 {
        
     line-height: 1.5em;
     letter-spacing: 0.72px;
-    text-transform: capitalize;
+    
     font-size: 20px;       
     font-weight: 500;      
         /* 120% */
@@ -119,7 +157,7 @@ h3 {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.31;
         /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
@@ -130,41 +168,7 @@ h3 {
     color: var(--iris);
 }
 
- .main-header-menu-item-link {
-    color: var(--navy-blue);
-    list-style-type: none;
-    text-decoration: none;
-    
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5em;
-    letter-spacing: 0.32px;
-    padding: 18px;
-    border: 21px;
-   
-    
-    }
-.main-ctas-item-link {
-    color: var(--navy-blue);
-    list-style-type: none;
-    text-decoration: none;
-    
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5em;
-    letter-spacing: 0.32px;
-    padding: 16px;  
-    border: 24px; 
-    
-    display: flex;
-        width: 150px;
-        height: 72px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        gap: 50px;
-        
-    }
+ 
 
 p {
     color: var(--slate);
