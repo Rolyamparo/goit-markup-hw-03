@@ -25,6 +25,7 @@ align-items: flex-start;
 width: 360px;
 height: 300px;
 border: 768px;
+
 }
 .list-team {
     display: inline-flex;
