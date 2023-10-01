@@ -6,16 +6,17 @@
     --CLOUD: #F4F4FD;
     
 }
-.list {
+.container {
     list-style-type: none;
     text-decoration: none;      
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.4px;
-    display: inline-flex;
+    
+    width: 1158px;
 }
-UL.list {
+ul.container {
     display: inline-flex;
 }
 .list-gadget 
@@ -46,7 +47,7 @@ border: 768px;
 
 .dark {
     background-color: var(--navy-blue);
-
+    text-align: center;
 }
 body {
     font-family: Roboto;
@@ -54,14 +55,17 @@ body {
 
 h1 {
     color: var(--white);
-    text-align: center;        
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;       
     letter-spacing: 1.12px;
-    text-transform: uppercase;
-    width: 1440px;
+   
+    width: 496px;
     flex-shrink: 0;
+    
+    
+    
     }
 
 .botton {
@@ -75,10 +79,8 @@ h1 {
     line-height: 24px;       
     letter-spacing: 0.64px;
     border: none;
-    text-align: center;
-    display: inline-flex;
+    
     padding: 16px 32px;
-    align-items: flex-start;
     gap: 10px;
     
     
@@ -95,6 +97,9 @@ h2 {
         letter-spacing: 0.72px;
         text-transform: capitalize;
         font-style: normal;
+        display: inline-flex
+        
+
     }
 h3 {
     /* Header 3 */
