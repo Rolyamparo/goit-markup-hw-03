@@ -45,28 +45,25 @@ ul.container {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    
-
     display: flex;
     width: auto;
     height: auto;
+    flex-shrink: 0;   
     
-    flex-shrink: 0;
-    
-
-    
-    
-}
+    }
 .list-gadget 
  {
 display: inline-flex;
 flex-direction: column;
-align-items: flex-start;
-width: 360px;
-height: 300px;
-border: 768px;
+align-items: center;
+height: auto;
+border: auto;
 border: 1px solid var(--cornflower);
 background: lightgray 50% / cover no-repeat;
+gap: 32px;
+width: 264px;
+border: 50px;
+margin: 50px;
 
 }
 .list-team {
@@ -77,8 +74,6 @@ background: lightgray 50% / cover no-repeat;
     align-items: center;
     gap: 32px;
     width: 264px;
-    
-
     border-radius: 0px 0px 4px 4px;
     background: var(--white);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -87,6 +82,7 @@ background: lightgray 50% / cover no-repeat;
 
 .dark {
     background-color: var(--navy-blue);
+    text-align: center;
    
 }
 body {
@@ -95,17 +91,12 @@ body {
 
 h1 {
     color: var(--white);
-    
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;       
-    letter-spacing: 1.12px;
-    
-    width: 496px;
-    
-    
-    
-    
+    letter-spacing: 1.12px;  
+        
     }
 
 .button {
@@ -126,26 +117,19 @@ h1 {
 
 h2 {
     /* Header 2 */
-        text-align: center;
-        color: var(--navy-blue);       
+    text-align: center;
+    color: var(--navy-blue);       
         
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 2.5em;       
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-        
-        display: inline-flex
-        
-
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5em;       
+    letter-spacing: 0.72px;  
     }
 h3 {
     /* Header 3 */
-    color: var(--navy-blue);
-       
+    color: var(--navy-blue);     
     line-height: 1.5em;
-    letter-spacing: 0.72px;
-    
+    letter-spacing: 0.72px;    
     font-size: 20px;       
     font-weight: 500;      
         /* 120% */
