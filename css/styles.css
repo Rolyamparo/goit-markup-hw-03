@@ -8,26 +8,60 @@
        
     
 }
+.box {
+    border: 1px solid #4D5AE5;
+    width: 1440px;
+    height: 2592px;
+    background: var(--white);
+    }
+.main-header {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.logo {
+    text-decoration: none;
+    color: var(--navy-blue);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.31;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    width: 44px;
+}
+
+.logo span {
+    color: var(--iris);
+    width: 71px;
+}
+
 .container {
-    list-style-type: none;
-    text-decoration: none;      
-    font-size: 20px;
+         
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.4px;
+    gap: 40px;
+    letter-spacing: 0.32px;
     
-    height: auto;
-    justify-content: center;
 }
 ul.container {
     display: inline-flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
     
 }
 
 body: {
 
     width: 1440px;
-    height: 2592px;
     background: var(--white);
 
 }
@@ -35,24 +69,18 @@ body: {
 .main-header-menu-item-link {
     color: var(--navy-blue);
     list-style-type: none;
-    text-decoration: none;
-
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5em;
-    letter-spacing: 0.32px;
+    text-decoration: none;         
     padding: 10px;
     border: 16px;
+    gap: 40px;
+    width: auto;
 }
 
 .main-ctas-item-link {
     color: var(--navy-blue);
     list-style-type: none;
     text-decoration: none;
-
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
+    
     letter-spacing: 0.32px;
     display: flex;
     width: auto;
@@ -60,27 +88,41 @@ body: {
     flex-shrink: 0;   
     
     }
-.list-gadget 
+.about {
+    
+    margin: 20px 0;
+    padding: 50px 60px;
+    
+}
+
+.about ul  
  {
-display: inline-flex;
-flex-direction: column;
-align-items: center;
-height: auto;
-border: auto;
-border: 1px solid var(--cornflower);
-background: lightgray 50% / cover no-repeat;
+list-style: none;
+display: flex;
+justify-content: center;
 gap: 32px;
-width: 264px;
-border: 50px;
-margin: 50px;
+border: 1px solid var(--CORNFLOWER, #E7E9FC);
+
+
+
+.gadget-image {
+width: 360px;
+height: 300px;
+
+}
+
+.team-section {
+    
+}
 
 }
 .list-team {
     display: inline-flex;
-    padding: 50px;
+    padding: 30px;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     gap: 32px;
     width: 264px;
     border-radius: 0px 0px 4px 4px;
@@ -92,6 +134,10 @@ margin: 50px;
 .dark {
     background-color: var(--navy-blue);
     text-align: center;
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    border-top: 188px;
    
 }
 body {
@@ -105,14 +151,17 @@ h1 {
     font-weight: 700;
     line-height: 60px;       
     letter-spacing: 1.12px;  
-        
+    margin-top: 188px;
+    margin-bottom: 292px;
+    justify-content: center;
+    
     }
 
 .button {
     border-radius: 4px;
     background-color: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    
     color: var(--white);
     font-size: 16px;
     font-weight: 500;
@@ -120,8 +169,12 @@ h1 {
     letter-spacing: 0.64px;
     border: none;
     padding: 16px 32px;
-    text-align: center;
     
+    margin-bottom: 188px;
+    display: inline-flex;
+    
+    align-items: flex-start;
+    gap: 10px;
 }
 
 h2 {
@@ -144,22 +197,7 @@ h3 {
         /* 120% */
     letter-spacing: 0.4px;
 }
-.logo {
-    text-decoration: none;
-    color: var(--navy-blue);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.31;
-        /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    
-}
 
-.logo span {
-    color: var(--iris);
-}
 
  
 
