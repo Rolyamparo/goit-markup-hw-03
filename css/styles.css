@@ -8,6 +8,7 @@
        
     
 }
+
 .box {
     border: 1px solid #4D5AE5;
     width: 1440px;
@@ -59,12 +60,7 @@ ul.container {
     
 }
 
-body: {
 
-    width: 1440px;
-    background: var(--white);
-
-}
 
 .main-header-menu-item-link {
     color: var(--navy-blue);
@@ -108,10 +104,14 @@ border: 1px solid var(--CORNFLOWER, #E7E9FC);
 .gadget-image {
 width: 360px;
 height: 300px;
+gap: 24px;
 
 }
 
-.team-section {
+ .section-.benefits {
+    width: 1440px;
+    height: 5000px;
+
     
 }
 
@@ -198,9 +198,6 @@ h3 {
     letter-spacing: 0.4px;
 }
 
-
- 
-
 p {
     color: var(--slate);
     
@@ -228,16 +225,23 @@ footer {
         /* 116.667% */
     letter-spacing: 0.54px;
     
+    
+    
     }
         .footer {
             text-decoration: none;
-            color: var(--white);            
+            color: var(--white); 
+            height: 312px; 
+            margin-left: 200;
+            padding-top: 50px;
+            padding-left: 156px;
         }
     
         .footer span {
-            color: var(--iris);                       
+            color: var(--iris);   
+           
         }
-        footer p {
+        .footer p {
             text-decoration: none;
             color: var(--cloud, #F4F4FD);
             
@@ -247,5 +251,6 @@ footer {
             line-height: 24px;
                 /* 150% */
             letter-spacing: 0.32px;
+            padding-top: 101.5px;
         }
                
