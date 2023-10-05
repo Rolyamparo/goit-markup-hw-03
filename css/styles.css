@@ -12,17 +12,18 @@
 .box {
     border: 1px solid #4D5AE5;
     width: 1440px;
-    height: 2592px;
+    height: 2000px;
     background: var(--white);
     }
-.main-header {
+.d-flex {
     width: 1440px;
     height: 72px;
-    flex-shrink: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-shrink: 0;
+    justify-content: space-around;
+    
+    
+    
 }
 .logo {
     text-decoration: none;
@@ -35,22 +36,46 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
     width: 44px;
+    justify-content: center;
 }
 
 .logo span {
     color: var(--iris);
     width: 71px;
+    justify-content: center;
 }
-
-.container {
-         
+.main-header-menu {
+    display: inline-flex;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5em;
     letter-spacing: 0.4px;
     gap: 40px;
     letter-spacing: 0.32px;
-    
+    justify-content: center;
+    list-style-type: none;
+}
+
+.main-ctas {
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.4px;
+    gap: 40px;
+    letter-spacing: 0.32px;
+    list-style-type: none;
+}
+
+.container {
+    display: inline-flex;     
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.4px;
+    gap: 40px;
+    letter-spacing: 0.32px;
+    justify-content: center;
 }
 ul.container {
     display: inline-flex;
@@ -59,8 +84,6 @@ ul.container {
     text-decoration: none;
     
 }
-
-
 
 .main-header-menu-item-link {
     color: var(--navy-blue);
@@ -76,18 +99,14 @@ ul.container {
     color: var(--navy-blue);
     list-style-type: none;
     text-decoration: none;
-    
+
     letter-spacing: 0.32px;
-    display: flex;
-    width: auto;
-    height: auto;
-    flex-shrink: 0;   
-    
-    }
+
+}
 .about {
     
     margin: 20px 0;
-    padding: 50px 60px;
+    padding: auto;
     
 }
 
@@ -97,71 +116,53 @@ list-style: none;
 display: flex;
 justify-content: center;
 gap: 32px;
-border: 1px solid var(--CORNFLOWER, #E7E9FC);
 
-
-
-.gadget-image {
-width: 360px;
-height: 300px;
-gap: 24px;
 
 }
 
- .section-.benefits {
-    width: 1440px;
-    height: 5000px;
-
-    
-}
-
-}
 .list-team {
     display: inline-flex;
     padding: 30px;
     flex-direction: column;
-    justify-content: center;
     margin-left: auto;
-    margin-right: auto;
-    gap: 32px;
-    width: 264px;
+    margin-right: auto;     
     border-radius: 0px 0px 4px 4px;
     background: var(--white);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }    
 
-
-.dark {
-    background-color: var(--navy-blue);
-    text-align: center;
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
-    border-top: 188px;
-   
-}
 body {
     font-family: Roboto;
 }
 
+.hero {
+    background-color: var(--navy-blue);
+    text-align: center;
+    width: 1440px;
+    
+    padding-top: 122px;
+    padding-bottom: 122px;
+}
+   
+.dark {
+        background-color: var(--navy-blue);
+        text-align: center;          
+   
+}
+
 h1 {
     color: var(--white);
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;       
     letter-spacing: 1.12px;  
-    margin-top: 188px;
-    margin-bottom: 292px;
-    justify-content: center;
-    
+       
     }
 
-.button {
+button {
     border-radius: 4px;
     background-color: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    
     color: var(--white);
     font-size: 16px;
     font-weight: 500;
@@ -169,12 +170,8 @@ h1 {
     letter-spacing: 0.64px;
     border: none;
     padding: 16px 32px;
-    
-    margin-bottom: 188px;
-    display: inline-flex;
-    
-    align-items: flex-start;
-    gap: 10px;
+       
+     gap: 10px;
 }
 
 h2 {
@@ -231,10 +228,9 @@ footer {
         .footer {
             text-decoration: none;
             color: var(--white); 
-            height: 312px; 
+            height: 200px; 
             margin-left: 200;
-            padding-top: 50px;
-            padding-left: 156px;
+            padding-top: 16px;
         }
     
         .footer span {
@@ -243,14 +239,12 @@ footer {
         }
         .footer p {
             text-decoration: none;
-            color: var(--cloud, #F4F4FD);
-            
+            color: var(--cloud);
             font-size: 16px;
-            
             font-weight: 400;
             line-height: 24px;
                 /* 150% */
             letter-spacing: 0.32px;
-            padding-top: 101.5px;
+            padding-top: 22px;
         }
                
