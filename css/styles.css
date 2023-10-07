@@ -10,12 +10,14 @@
 }
 
 .box {
-    border: 1px solid #4D5AE5;
+    border: none;
     width: 1440px;
     height: 2592px;
     background: var(--white);
     margin-left: 156px;
     margin-right: 156px;
+    border-bottom: 1px solid var(--cornflower);
+        
     }
 .d-flex {
     width: 1440px;
