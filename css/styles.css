@@ -3,7 +3,7 @@
     --navy-blue: #2E2F42;
     --white: #FFF;
     --slate: #434455;
-    --CLOUD: #F4F4FD;
+    --cloud: #F4F4FD;
     --cornflower: #E7E9FC;
        
     
@@ -12,7 +12,7 @@
 .box {
     border: 1px solid #4D5AE5;
     width: 1440px;
-    height: 2095px;
+    height: 2592px;
     background: var(--white);
     margin-left: 156px;
     margin-right: 156px;
@@ -23,12 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-   
-    
-    
-    
-    
-}
+    }
 .logo {
     text-decoration: none;
     color: var(--navy-blue);
@@ -82,7 +77,6 @@
     justify-content: center;
     text-decoration: none;
     list-style: none;
-    
     align-items: center;
     
 }
@@ -95,6 +89,7 @@ ul.container {
     padding-left: 0;
     margin-left: 156px;
     margin-right: 156px;
+    margin-top: 120px;
 }
 
 .container p {
@@ -115,52 +110,36 @@ text-align: left;
     color: var(--navy-blue);
     list-style: none;
     text-decoration: none;
-
     letter-spacing: 0.32px;
 
 }
-
-
 
 .about-gadget {
 display: flex;
 justify-content: space-around;
 align-items: center;
-margin-left: auto;
-margin-right: auto;
 padding-left: 0;
 margin-left: 156px;
 margin-right: 156px;
-
-
-
-
+padding-bottom: 120px;
 
 }
-
-
 
 .gadget-image {
     display: inline-flex;
     align-items: center;
     width: 300px;
-    height: 300px;       
+         
     gap: 24px;
     list-style-type: none;
     justify-content: space-around;
     border: 1px solid var(--CORNFLOWER);
-    
     padding-left: 0;
-    text-decoration: none;
-    
-        
-        
-       
-    
-}
+    text-decoration: none;      
+          
+   }
 
  
-
 body {
     font-family: Roboto;
     margin: 0;
@@ -170,10 +149,10 @@ body {
     background-color: var(--navy-blue);
     text-align: center;
     width: 1440px;
-    height: 300px;
+    height: 200px;
     flex-direction: flex-start;
-    padding-top: 122px;
-    padding-bottom: 122px;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
    
 .dark {
@@ -187,7 +166,8 @@ h1 {
     font-weight: 700;
     line-height: 60px;       
     letter-spacing: 1.12px;  
-       
+     
+    
     }
 
 button {
@@ -201,8 +181,7 @@ button {
     letter-spacing: 0.64px;
     border: none;
     padding: 16px 32px;
-       
-     gap: 10px;
+    gap: 10px;
 }
 ul .li {
     text-decoration: none;
@@ -213,7 +192,6 @@ ul .li {
     align-items: center;
     justify-content: space-around;
 
-
 }
 h2 {
     /* Header 2 */
@@ -223,9 +201,18 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 2.5em;       
-    letter-spacing: 0.72px;  
+    letter-spacing: 0.72px;
+    padding-top: 60px;  
     }
-.team {
+
+    .team {
+        width: 1440px;
+        height: 732px;
+        background: var(--cloud);
+
+    }
+
+.team-section {
         text-decoration: none;
         list-style-type: none;
         display: flex;
@@ -234,6 +221,8 @@ h2 {
         padding-left: 0;
         margin-left: 156px;
         margin-right: 156px;
+        margin-bottom: 120px;
+        
     }
 
     .list-team {
@@ -244,14 +233,14 @@ h2 {
         text-decoration: none;
         
         border-radius: 0px 0px 4px 4px;
-        background: var(--white);
+        
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     }
 
 h3 {
     /* Header 3 */
     color: var(--navy-blue);     
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.72px;    
     font-size: 20px;       
     font-weight: 500;      
@@ -269,40 +258,39 @@ p {
         
         font-size: 16px;
         font-weight: 400;
-        line-height: 1.5em;
+        line-height: 1.5;
         /* 150% */
         letter-spacing: 0.32px;
-        text-align: center;
-    
-       
-}
+        text-align: center; 
+        
+        
+       }
 
 footer {
-    
-    
+       
     text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
-    background-color: var(--navy-blue);
+    background: var(--navy-blue);
     font-weight: 800;
     line-height: 21px;
         /* 116.667% */
-    letter-spacing: 0.54px;
-    
-    
-    
+    letter-spacing: 0.54px;  
+    height: 312px;          
     }
         .footer {
             text-decoration: none;
             color: var(--white); 
-            height: 200px; 
-            margin-left: 200;
-            padding-top: 16px;
+            
+            padding-top: 100px;
+            
         }
     
         .footer span {
             color: var(--iris); 
             margin-left: 156px;
+            
+            padding-top: 100px;
            
         }
         .footer p {
@@ -316,5 +304,7 @@ footer {
             padding-top: 22px;
             margin-left: 156px;
             text-align: left;
+            margin-bottom: 100px;
+           
         }
                
