@@ -38,6 +38,7 @@
     text-transform: uppercase;
     width: 44px;
     justify-content: center;
+    padding-left: 156px;
 }
 
 .logo span {
@@ -66,6 +67,7 @@
     gap: 40px;
     letter-spacing: 0.32px;
     list-style-type: none;
+    padding-right: 156px;
 }
 
 .container {
